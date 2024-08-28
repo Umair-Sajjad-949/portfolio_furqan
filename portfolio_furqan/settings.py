@@ -77,8 +77,13 @@ WSGI_APPLICATION = 'portfolio_furqan.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': "django.db.backends.mysql",
+        'NAME': "umair",
+        'USER': "root",
+        'PASSWORD': "hafiz1122",
+        'HOST': "localhost",
+        'PORT': "3360"
+    
     }
 }
 
