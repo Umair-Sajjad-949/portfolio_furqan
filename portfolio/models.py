@@ -13,4 +13,5 @@ class settings(models.Model):
     linkdeIn=models.TextField(max_length=255)
     Instagram = models.TextField(max_length=255)
     email = models.EmailField(max_length=255)
-    github = models.TextField(max_length=255)
+    github = models.TextField(max_length=255) 
+    
